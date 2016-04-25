@@ -4,8 +4,8 @@ declared-services:
     plan: standard
 applications:
 - services:
-  - natural-language-classifier-standard
-  name: natural-language-classifier-demo
+  - natural-language-classifier-service
+  name: natural-language-classifier-hobbies
   command: npm start
   path: .
   memory: 512M

@@ -26,8 +26,8 @@ require('./config/express')(app);
 // Create the service wrapper
 var nlClassifier = watson.natural_language_classifier({
   url : 'https://gateway.watsonplatform.net/natural-language-classifier/api',
-  username : '<username>',
-  password : '<password>',
+  username : 'cc94872a-7fc7-49b6-b951-dd61316efdc5',
+  password : 'qoRHnEmO6rMA',
   version  : 'v1'
 
 });
@@ -44,7 +44,7 @@ app.get('/', function(req, res) {
 // Responses are json
 app.post('/api/classify', function(req, res, next) {
   var params = {
-    classifier: process.env.CLASSIFIER_ID || '<classifier-id>', // pre-trained classifier
+    classifier: process.env.CLASSIFIER_ID || '3a84cfx63-nlc-495', // my classifier
     text: req.body.text
   };
 

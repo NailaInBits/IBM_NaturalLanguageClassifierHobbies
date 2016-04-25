@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Natural Language Classifier Demo
 [![Build Status](https://travis-ci.org/watson-developer-cloud/natural-language-classifier-nodejs.svg?branch=master)](http://travis-ci.org/watson-developer-cloud/natural-language-classifier-nodejs)
 [![codecov.io](https://codecov.io/github/watson-developer-cloud/natural-language-classifier-nodejs/coverage.svg?branch=master)](https://codecov.io/github/watson-developer-cloud/natural-language-classifier-nodejs?branch=master)
@@ -167,3 +168,7 @@ Deployment tracking can be disabled by removing `require('cf-deployment-tracker-
 [getting_started]: http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/doc/getting_started/
 [nlc_docs]: http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/nl-classifier.html
 [sign_up]: https://console.ng.bluemix.net/registration/
+=======
+# IBM_NaturalLanguageClassifierHobbies
+An application created using IBM Watson Developer Cloud's API. The Natural Language Classifier was trained using a unique set of data primarily related to hobbies. It classifies questions based on whether those hobbies are stationary or athletic activities.
+>>>>>>> ebfc8662412bec50784085f646c6f470d65f4e39

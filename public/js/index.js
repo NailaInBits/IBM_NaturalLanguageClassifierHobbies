@@ -67,11 +67,11 @@ $(document).ready(function() {
   };
 
   [
-    'Is it hot outside?',
-    'What is the expected high for today?',
-    'Will it be foggy tomorrow morning?',
-    'Should I prepare for sleet?',
-    'Will there be a storm today?'
+    'Where can I rock climb?',
+    'What is calligraphy?',
+    'How do you play chess?',
+    'Should I use gloves for handball?',
+    'Where can I hike today?'
   ].forEach(function(question){
     $('<a>').text(question)
       .mousedown(function() {
